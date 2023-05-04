@@ -16,10 +16,18 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "idb": "^7.1.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "css-loader": "^6.7.3",
+    "nodemon": "^2.0.4",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.0",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
